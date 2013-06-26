@@ -16,4 +16,6 @@ public interface GerenciadorLoja {
 	Livro procura(Long id);
 	
 	List<Autor> getAutoresDoLivro(Livro livro);
+	
+	List<Livro> buscaLivrosPeloNomeDoAutor(String nome);
 }
