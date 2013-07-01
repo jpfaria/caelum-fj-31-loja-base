@@ -18,4 +18,6 @@ public interface GerenciadorLoja {
 	List<Autor> getAutoresDoLivro(Livro livro);
 	
 	List<Livro> buscaLivrosPeloNomeDoAutor(String nome);
+	
+	List<Livro> listaLivros();
 }
